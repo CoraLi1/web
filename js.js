@@ -39,7 +39,7 @@ $(function(){
 		oC.height = viewHeight;
 		//alert(oC.width);
 		var objImg = new Image();
-		objImg.src = '../img/a.png';
+		objImg.src = './img/a.png';
 		//alert(objImg.width);
 		objImg.onload = function (){
 			//oGC.drawImage(objImg, 0,0,640,1137);//这样的字体会变形
